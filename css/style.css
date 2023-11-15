@@ -208,7 +208,7 @@ body{
     width:100% auto;
 }
 
-.list-item{
+.mylist-item{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,7 +220,7 @@ body{
     display: none;
     
 }
-.navigation{
+.mynavigation{
 background-color: #1e1e1e;
 width: 1440px 100%;
 height: 90px;
@@ -229,7 +229,7 @@ align-items: center;
 justify-content: space-between;
 }
 
-.navigation ul {
+.mynavigation ul {
     flex-direction: row;
     margin-right:31px;
     margin-bottom: 0px;
@@ -245,12 +245,12 @@ li{
     max-width: 93px;
     align-self: center;
     cursor: pointer;
-
+    /* box-sizing: none; */
 }
 
 
 button {
-    justify-content: left;
+    justify-content: right;
     background-color: transparent;
     padding:0px;
     border-width: 0px;
