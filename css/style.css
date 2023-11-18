@@ -59,14 +59,14 @@ h4{
     font-size: 40px;
     margin-top: 0px;
     margin-bottom: 0px;
-    block-size: 79px;
+    /* block-size: 79px; */
     padding:0px;
     color: #1e1e1e;
     font-weight:lighter;
     font-family: 'Fredericka the Great', serif;
     -webkit-text-stroke: 0.6px;
     letter-spacing:0px;
-    background: linear-gradient(to top, #FCBF38 73%, transparent 27%);
+    /* background: linear-gradient(to top, #FCBF38 73%, transparent 27%); */
 }
 
 h5{
@@ -174,7 +174,12 @@ h6{
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
 }
-
+.R13{
+    font-size: 32px;
+    color: #1e1e1e;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+}
 p { 
     font-size: 16px;
     color: #1e1e1e;
@@ -319,7 +324,7 @@ li{
     background-color: #4F7DDD;
 }
 .cardcontainer{
-    margin-top: 8px;
+    margin-top:13px;
     margin-bottom: 0px;
 }
 .card{
@@ -331,6 +336,39 @@ li{
     margin-top: -34px;
     margin-bottom: -10px;
 }
+.pro1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+section{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.secHeads{
+    position: relative;
+    margin-bottom: -88px;
+    z-index: -1;
+}
+.content{
+    max-width: 433px;
+    width: auto;
+    text-align: left;
+}
+.InterviewImages{
+    display: flex;
+    flex-direction: row;
+}
+.intInsImg{
+    max-width: 315px;
+    width: auto;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
 footer{
     display:flex;
     flex-direction: row;
@@ -432,14 +470,6 @@ nav ul{
 nav{
     display:inline-block;
 }
-/* .row{
-    grid-row:1 /span1;}
-.row2{
-    grid-row:1/span2;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-} */
 
 @media only screen and (max-width:1200px) and (min-width:600px){
     footer{
