@@ -395,6 +395,51 @@ section{
     max-width: 393px;
     justify-content: space-around;
 }
+.AuditImages{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.audimagesA{
+    display:flex;
+    flex-direction: row;
+}
+.audimagesB{
+    display: flex;
+    flex-direction: row;
+}
+.auditImg1{
+    max-width: 572px;
+    max-height: 381px;
+    width: auto;
+    height: auto;
+
+}
+.auditImg2{
+    max-width: 432px;
+    max-height: 435px;
+    width: auto;
+    height: auto;
+    margin-top: 70px;
+    margin-left: -283px;
+}
+.auditImg3{
+    width: 432px;
+    height: 1125px;
+    max-width: auto;
+    max-height: auto;
+    margin-top: 106px;
+    margin-left: -256px;
+}.auditImg4{
+    width: 410px;
+    height: 937px;
+    max-width: auto;
+    max-height: auto;
+    margin-top: 106px;
+    margin-left: 20px;
+}
 footer{
     display:flex;
     flex-direction: row;
