@@ -807,6 +807,7 @@ nav ul{
     height:161px;
     padding-left: 285px;
     justify-content: flex-start;
+    align-items: center;
     margin-top: 20px;
 }
 .Loctext{
