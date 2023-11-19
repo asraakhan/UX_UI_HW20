@@ -119,7 +119,7 @@ h6{
 .R5 {
     font-size: 24px;
     color: #1e1e1e;
-    font-weight: 800;
+    font-weight: 700;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -342,6 +342,14 @@ li{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap:wrap;
+    width: 100%;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+.prcsimg{
+    width: 100%;
+    max-width: 203px;
 }
 section{
     margin-left: 3rem;
@@ -609,6 +617,8 @@ section{
 }
 .WF{
     width: 100%;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 .UT1{
     display: flex;
@@ -640,6 +650,111 @@ section{
     height: 100%;
     max-height:509px;
 }
+.UT2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 1336px;
+}
+.Dform{
+    display: flex;
+    flex-direction: row;
+    max-width: 771px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.donNow{
+    max-width: 260px;
+    max-height: 510px;
+    width: 100%;
+}
+.success{
+    max-width: 303px;
+    width: 100%;
+}
+.ABtest{
+    max-width: 526px;
+    width: 100%;
+}
+.UT2insights{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.insightsblocks{
+    display: flex;
+    flex-direction: row;
+}
+.insightsA{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+}
+.insImg{
+    max-width: 432px;
+    width: 100%;
+    padding: 10px;
+}
+.befAft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.BnAimages{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: left;
+    max-width: 884px;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bnaImg{
+    max-width: 1024px;
+    width: 100%;
+    margin-top: -100px;
+}
+.curlyArrow{
+    margin-left: 400px;
+    margin-top: -200px;
+}
+.cArrow{
+    max-width: 298.43px;
+    width: 100%;
+    margin-left: 726px;
+    margin-top: -60px;
+    margin-bottom: -150px;
+}
+.nextSteps{
+    background-color: #FCBF38;
+    border:4px solid #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    box-shadow: 5px 5px lightgray;
+}
+.NStext{
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.NST{
+    margin: -10px;
+}
+
+
 footer{
     display:flex;
     flex-direction: row;
