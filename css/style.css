@@ -210,9 +210,6 @@ p {
     margin-left: 51px;
     display:none;
 }
-/* .inline-block > ul, li{
-    display:flex;
-} */
 
 .mylist-item{
     display: flex;
@@ -253,15 +250,6 @@ li{
     /* box-sizing: none; */
 }
 
-/* button {
-    justify-content: right;
-    background-color: transparent;
-    padding:0px;
-    border-width: 0px;
-    border-color: transparent;
-    cursor: pointer;
-} */
-
 .jumbotron {
     padding-top: 2rem;
     padding-bottom: 0rem;
@@ -293,6 +281,15 @@ li{
     background-color: transparent;
     border: none;
     margin-left: 10px;
+}
+.btn-primary:hover {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+}
+button{
+    background-color: transparent;
+    border: none;
 }
 .heroButtonD{
     display:block;

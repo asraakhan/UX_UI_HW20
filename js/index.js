@@ -6,6 +6,13 @@ const heroButtonD = document.querySelector(".heroButtonD");
 const heroButtonHoverD = document.querySelector(".heroButtonHoverD");
 const logo = document.querySelector(".logo");
 const logoHover = document.querySelector(".logoHover");
+const Finalprototype = document.querySelector(".Finalprototype");
+
+const PI1 = document.querySelector(".PI1");
+const PI2 = document.querySelector(".PI2");
+const PI3 = document.querySelector(".PI3");
+const PI4 = document.querySelector(".PI4");
+const PI5 = document.querySelector(".PI5");
 
 const aboutItem = document.getElementById("about");
 const connectItem = document.getElementById("connect");
@@ -28,8 +35,8 @@ heroBtn.addEventListener("mouseleave", () => {
 });
 
 heroBtn.addEventListener("click", () => {
-  const mainBodySection = document.querySelector(".mainBody");
-  mainBodySection.scrollIntoView({ behavior: "smooth" }); 
+  const FinalprototypeSection = document.querySelector(".Finalprototype");
+  FinalprototypeSection.scrollIntoView({ behavior: "smooth" }); 
 });
 
 logo.addEventListener("mouseenter", () => {
@@ -79,3 +86,23 @@ resume.addEventListener("mouseleave", () => {
     resumeText.style.fontWeight = "600";
 
 } );
+PI1.addEventListener("click", () => {
+    const UserInterviewsSection = document.querySelector(".UserInterviews");
+    UserInterviewsSection.scrollIntoView({ behavior: "smooth" }); 
+  });
+  PI2.addEventListener("click", () => {
+    const definehead = document.querySelector(".definehead");
+    definehead.scrollIntoView({ behavior: "smooth" }); 
+  });
+  PI3.addEventListener("click", () => {
+    const Ideatesec = document.querySelector(".Ideatesec");
+    Ideatesec.scrollIntoView({ behavior: "smooth" }); 
+  });
+  PI4.addEventListener("click", () => {
+    const Prototypesec = document.querySelector(".Prototypesec");
+    Prototypesec.scrollIntoView({ behavior: "smooth" }); 
+  });
+  PI5.addEventListener("click", () => {
+    const testsec = document.querySelector(".testsec");
+    testsec.scrollIntoView({ behavior: "smooth" }); 
+  });
