@@ -502,7 +502,31 @@ section{
     max-width: 232px;
     width: auto;
 }
-
+.FvE{
+    max-width: 468px;
+}
+.FEsub{
+    max-width: 433px;
+}
+.FnEInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.FnE{
+    display: flex;
+    flex-direction: column;
+    max-width: 417px;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.FrustImg{
+    max-width: 417px;
+}
 
 
 footer{
