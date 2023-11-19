@@ -440,6 +440,47 @@ section{
     margin-top: 106px;
     margin-left: 20px;
 }
+.CompetitorImages{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comptext{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-bottom: -120px;
+}
+.T1{
+    position: relative;
+    margin-left: 350px;
+    width: fit-content;
+    margin-top: 50px;
+}
+.T2{
+    position: relative;
+    margin-left:650px;
+    width: fit-content;
+    margin-top: 50px;
+}
+.T3{
+    position: relative;
+    margin-left:920px;
+    width: fit-content;
+    margin-top: 50px;
+}
+.competitorscreens{
+    z-index: 0;
+    max-width: 100%;
+}
+.yspan{
+    z-index: -1;
+    width: 100%;
+    margin-top: -22.6%;
+}
+
 footer{
     display:flex;
     flex-direction: row;
