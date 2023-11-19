@@ -380,7 +380,7 @@ section{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .StkInfo{
     display: flex;
@@ -527,7 +527,23 @@ section{
 .FrustImg{
     max-width: 417px;
 }
-
+.definehead{
+    z-index: 1;
+}
+.defineProb{
+    background-color: #1e1e1e;
+}
+.defineSol{
+    background-color: #FCBF38;
+}
+.Prob{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.Sol{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
 
 footer{
     display:flex;
