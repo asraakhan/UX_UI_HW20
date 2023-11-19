@@ -758,12 +758,10 @@ section{
 footer{
     display:flex;
     flex-direction: row;
-    padding-left:0px;
-    padding-right:0px;
     padding-top: 27px;
     padding-bottom: 27px;
     background-color: #1e1e1e;
-    width:auto;
+    width:100%;
     Height:215px;
     margin-top: 30px;
 }
@@ -771,8 +769,8 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: left;
-    padding-left: 165px;
-    padding-top: 13px;
+    margin-left: 165px;
+    margin-top: 13px;
 }
 .footerul{
     display:flex;
@@ -801,20 +799,16 @@ nav ul{
 }
 
 .ulBottom{
+    display: flex;
+    flex-direction: row;
     margin:0px;
-    width:373px;
+    max-width:373px;
+    width: 100%;
     height:161px;
-    padding-left: 210px;
-    display:flex;
+    padding-left: 285px;
     justify-content: flex-start;
+    margin-top: 20px;
 }
-.Location{
-    padding-left: 0px;
-    padding-top: 11.5px;
-    padding-bottom: 11.5px;
-   
-}
-
 .Loctext{
     flex-direction: row;
     margin:0px;
@@ -823,11 +817,9 @@ nav ul{
     white-space:nowrap;
     cursor:default;
 }
-.Mail{
-    height:53px;
-    padding-left: 0px;
-    padding-top: 11px;
-    padding-bottom: 11px;
+.Locicon{
+    width:24.75px;
+    height:29px;
 }
 
 .Mailtext{
@@ -837,11 +829,9 @@ nav ul{
     width:327px;
 
 }
-.Linkedin{
-    height:53px;
-    padding-left: 0px;
-    padding-top: 11px;
-    padding-bottom: 11px;
+.Mailicon{
+    width:32px;
+    height:22.61px;
 }
 
 .Linkedintext{
@@ -853,8 +843,9 @@ nav ul{
     white-space:nowrap;
 
 }
-nav{
-    display:inline-block;
+.Lkdnicon{
+    width:30.25px;
+    height:25.76px;
 }
 
 @media only screen and (max-width:1200px) and (min-width:600px){
