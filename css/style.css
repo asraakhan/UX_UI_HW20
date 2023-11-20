@@ -237,8 +237,6 @@ justify-content: space-between !important;
     margin-left: auto;
     margin-right: 0 !important;
 }
-
-
 li{
     /* padding:20px; */
     color:white !important;
@@ -750,8 +748,6 @@ section{
 .NST{
     margin: -10px;
 }
-
-
 footer{
     display:flex;
     flex-direction: row;
@@ -914,6 +910,28 @@ nav ul{
         justify-content: center;
         align-items: center;
     }
+    h3{
+        font-size: 28px !important;
+        text-wrap: nowrap;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        block-size: 28px;
+        padding:0px;
+        color: #1e1e1e;
+        -webkit-text-stroke: 0.2px;
+        margin-bottom: 10px;
+    }
+    
+    h4{
+        display:flex;
+        align-items: center;
+        font-size: 22px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        /* block-size: 79px; */
+        padding:0px;
+        -webkit-text-stroke: 0.2px;
+    }
     h5{
         font-size: 100px;
         letter-spacing: -10.5px;
@@ -921,15 +939,44 @@ nav ul{
     h6{
         font-size: 40px;
     }
+    .R1 {
+        font-size: 20px;
+    }
+    .R2 {
+        font-size: 20px;
+    }
+    .R3 {
+        font-size: 20px;
+    }
+    .R4 {
+        font-size: 18px;
+    }
+    .R5 {
+        font-size: 18px;
+    }
     .R6 {
         font-size: 18px;
     }
-    
     .R7 {
         font-size: 18px;
     }
+    .R8{
+        font-size: 16px;
+    }
+    .R9{
+        font-size: 16px;
+    }
     .R10{
         font-size: 16px;
+    }
+    .R11{
+        font-size: 16px;
+    }
+    .R12{
+        font-size: 16px;
+    }
+    .R13{
+        font-size: 19px;
     }
     .logo {
         margin-left: 18px;
@@ -941,7 +988,7 @@ nav ul{
         width:51px;
         padding-bottom: 5px;
     }
-    .navigation{
+    /* .navigation{
         height: 90px;
         display:flex;
         align-items:end;
@@ -949,7 +996,7 @@ nav ul{
         }
      .navigation ul {
            display: none;
-        }
+        } */
     .menu{
         display: flex;
         width:40px;
@@ -958,7 +1005,130 @@ nav ul{
         cursor: pointer;
         padding-bottom: 12px;
     }
-    .HI{
+    .jumbotron {
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-bottom: 356px;
+        background-color:white;
+        border-radius: 0.3rem;
+    }
+    .heroContent{
+        padding-left: 2rem;
+        width:auto;
+        max-width: 900px;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width:fit-content;
+    }
+    .Toptitle{
+        margin-bottom: 18px;
+    }
+    
+    .dblue{
+        background-color: #3568D4;
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+        padding: 1rem;
+        position: absolute;
+        margin-top: 200px;
+    }
+    .btn-primary{
+        background-color: transparent;
+        border: none;
+        margin-left: 10px;
+    }
+    .btn-primary:hover {
+     display:none;
+    }
+    button{
+        background-color: transparent;
+        border: none;
+    }
+    /* .heroButtonD{
+        display:block;
+     } */
+    
+    .heroButtonHoverD{
+        display:none;
+    }
+    .des1{
+        width:431px;
+        float:left;
+        margin-top: 3rem;
+    }
+    .des1text{
+        margin-left: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .heroImg{
+        position:relative;
+        z-index:0;
+        margin-top:-650px;
+        margin-left: 0%;
+        max-width:100%;
+    }
+    .projectInfo{
+        background-color: #4F7DDD;
+    }
+    .cardcontainer{
+        margin-top:70px;
+        margin-bottom: -100px;
+        display: flex;
+        justify-content: center;
+    }
+    .topcard{
+        margin-top:150px;
+        margin-bottom: -100px;
+    }
+    .bottomcard{
+        margin-bottom: 0px;
+    }
+    .card{
+        border:0px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .whiteundr{
+        max-width: 319px;
+        width: 100%;
+        margin-top: -34px;
+        margin-bottom: -10px;
+    }
+    .card-body{
+        text-align: center;
+    }
+    .pro1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap:wrap;
+        width: 100%;
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
+    .prcsimg{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 80px;
+    }
+
+
+
+
+
+
+
+
+
+    /* .HI{
         width:1316.98px;
         z-index:-1;
         block-size: auto;
@@ -969,9 +1139,8 @@ nav ul{
     
     .heroButtonD{
         display:none;
-     }
-     .heroButtonHoverD
-     {
+     } */
+     .heroButtonHoverD{
         display:none;
      }
    
