@@ -435,7 +435,8 @@ section{
     max-height: auto;
     margin-top: 106px;
     margin-left: -256px;
-}.auditImg4{
+}
+.auditImg4{
     width: 410px;
     height: 937px;
     max-width: auto;
@@ -1119,115 +1120,504 @@ nav ul{
         width: 100%;
         max-width: 80px;
     }
-
-
-
-
-
-
-
-
-
-    /* .HI{
-        width:1316.98px;
-        z-index:-1;
-        block-size: auto;
-        margin-top: 45px;
-        margin-left: -750px;
+    section{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .secHeads{
+        position: relative;
+        margin-bottom: -40px;
+        z-index: -1;
+    }
+    .content{
+        max-width: 433px;
+        width: auto;
+        text-align: left;
+    }
+    .InterviewImages{
+        display: flex;
+        flex-direction: column;
+    }
+    .intInsImg{
+        max-width: 200px;
+        width: 100%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .stakeholderImg{
+        max-width: 200px;
+        width: auto;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .StakeholderMB{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .StkInfo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: 319px;
+        width: auto;
+    }
+    .stkquotes{
+        display: flex;
+        flex-direction: column;
+        max-width: 393px;
+        margin-top: 1rem;
+        
+    }
+    .sSaid{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .AuditImages{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .audimagesA{
+        display:flex;
+        flex-direction: column;
+    }
+    .audimagesB{
+        display: flex;
+        flex-direction: column;
+    }
+    .auditImg1{
+        max-width: 572px;
+        max-height: 381px;
+        width: auto;
+        height: auto;
     
     }
+    .auditImg2{
+        max-width: 432px;
+        max-height: 435px;
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+        margin-left: auto;
+    }
+    .auditImg3{
+        width: 432px;
+        height: 1125px;
+        max-width: auto;
+        max-height: auto;
+        margin-top: 20px;
+        margin-left: auto;
+    }
+    .auditImg4{
+        width: 410px;
+        height: 937px;
+        max-width: auto;
+        max-height: auto;
+        margin-top: 20px;
+        margin-left: auto;
+    }
+    .CompetitorImages{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+    }
     
-    .heroButtonD{
-        display:none;
-     } */
-     .heroButtonHoverD{
-        display:none;
-     }
-   
+    .comptext{
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        margin-bottom: -30px;
+    }
+    .T1{
+        position: relative;
+        margin-left: 50px;
+        width: fit-content;
+        margin-top: 50px;
+    }
+    .T2{
+        position: relative;
+        margin-left:180px;
+        width: fit-content;
+        margin-top: 20px;
+    }
+    .T3{
+        position: relative;
+        margin-left:280px;
+        width: fit-content;
+        margin-top: 20px;
+    }
+    .competitorscreens{
+        z-index: 0;
+        max-width: 100%;
+    }
+    .yspan{
+        z-index: -1;
+        width: 100%;
+        margin-top: -22.6%;
+    }
+    .UserPersona{
+        margin-top: 30px;
+    }
+    .personaInfo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .PersonaMB{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 693px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .PersonaImg{
+        max-width: 232px;
+        width: auto;
+    }
+    .FvE{
+        max-width: 468px;
+    }
+    .FEsub{
+        max-width: 433px;
+    }
+    .FnEInfo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .FnE{
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .FrustImg{
+        min-width: 207px;
+        width: 100%;
+    }
+    .definehead{
+        z-index: 1;
+    }
+    .defineProb{
+        background-color: #1e1e1e;
+    }
+    .defineSol{
+        background-color: #FCBF38;
+    }
+    .Prob{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .Sol{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .SB{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        max-width: 1107.54px;
+        min-width: 220px;
+        width: 100%;
+    }
+    .UF{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        max-width: 1330px;
+        min-width: 220px;
+        width: 100%;
+    }
+    .StyleGuideImagesParent{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    .photography{
+        max-width: 601px;
+        width: 100%;
+        min-width: auto;
+    }
+    .SGimgB{
+        display: flex;
+        flex-direction: column;
+        max-width: 240px;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .donateBtn{
+        max-width: 208px;
+        min-width: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .fork{
+        max-width: 240px;
+        width: 100%;
+        min-width: auto;
+        margin-top: 30px;
+    }
+    .SGimgC{
+        display: flex;
+        flex-direction: column;
+        max-width: 471px;
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 25px;
+        
+    }
+    .logoClr{
+        max-width: 471px;
+        width: 100%;
+    }
+    .infographics{
+        max-width: 432px;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .WF{
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .UT1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .oldNew{
+        display: flex;
+        flex-direction: column;
+        max-width: 944px;
+        width: 100%;
+        margin-left: 0rem;
+        margin-bottom: 20px;
+    }
+    .WFold{
+        max-width: 944px;
+        width: 100%;
+    }
+    .WFnew{
+        margin-top: 20px;
+        max-width: 944px;
+        width: 100%;
+    }
+    .WFscreen{
+        margin-right: -100px;
+        max-width: 600px;
+        width: 100%;
+        height: 100%;
+        max-height:800px;
+    }
+    .UT2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 1336px;
+    }
+    .Dform{
+        display: flex;
+        flex-direction: column;
+        max-width: 771px;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+    .donNow{
+        max-width: 260px;
+        max-height: 510px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .success{
+        max-width: 303px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .ABtest{
+        max-width: 526px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .UT2insights{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .insightsblocks{
+        display: flex;
+        flex-direction: column;
+    }
+    .insightsA{
+        display: flex;
+        flex-direction: column;
+        padding:5px;
+    }
+    .insImg{
+        max-width: 432px;
+        width: 100%;
+        padding: 10px;
+    }
+    .befAft{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .BnAimages{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: left;
+        max-width: 884px;
+        width: 100%;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .bnaImg{
+        max-width: 1024px;
+        width: 100%;
+        margin-top: -50px;
+    }
+    .curlyArrow{
+        margin-left: 20px;
+        margin-top: -200px;
+    }
+    .cArrow{
+        max-width: 145px;
+        width: 100%;
+        margin-left: auto;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .nextSteps{
+        background-color: #FCBF38;
+        border:4px solid #1e1e1e;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        box-shadow: 5px 5px lightgray;
+    }
+    .NStext{
+        text-align: left;
+        margin: 5px;
+        padding: 5px;
+        margin-top: 20px;
+        margin-left: 1rem;
+    }
+    .NST{
+        margin: -10px;
+    }
     footer{
         display:flex;
         flex-direction: column;
-        padding-left:0px;
-        padding-right:0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         background-color: #1e1e1e;
-        width:auto;
+        width:100%;
         Height:auto;
+        margin-top: 30px;
         justify-content: center;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .footerTitle{
         display: flex;
         flex-direction: row;
         justify-content: left;
-        padding-left: 18px;
-        padding-right: 18px;
-        padding-top: 13px;
+        margin-left:0px ;
+        margin-top: 13px;
     }
     .footerul{
         display:flex;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
         padding-top: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
     }
     
     .FT1{
         display:flex;
         flex-direction: row;
+        white-space:nowrap;
         margin:0px;
     }
     .FT2{
         display:flex;
         flex-direction: row;
         margin:0px;
-        padding-left:10px;
-    }
-    ul{
-        display:flex;
-        float:right;
-        flex-direction: column;
+        padding-left:auto;
     }
     .ulBottom{
+        display: flex;
+        flex-direction: row;
         margin:0px;
-        width:308px;
-        height:161px;
-        padding-left: 18px;
-        padding-right: 18px;
-        padding-top: 10px;
-        display:flex;
-        justify-content: flex-start;
-    }
-    .Location{
+        max-width:373px;
+        width: 100%;
+        height:auto;
         padding-left: 0px;
-        padding-top: 11.5px;
-        padding-bottom: 11.5px;
-       
+        align-items: center;
+        margin-top: 20px;
     }
-    
     .Loctext{
         flex-direction: row;
         margin:0px;
         margin-left:10px;
-        width:300px;
+        width:auto;
         white-space:nowrap;
         cursor:default;
     }
-    .Mail{
-        height:53px;
-        padding-left: 0px;
-        padding-top: 11px;
-        padding-bottom: 11px;
+    .Locicon{
+        width:24.75px;
+        height:29px;
     }
     
     .Mailtext{
         flex-direction: row;
         margin:0px;
         margin-left:10px;
-        width:300px;
+        width:auto;
     
     }
-    .Linkedin{
-        height:53px;
-        padding-left: 0px;
-        padding-top: 11px;
-        padding-bottom: 11px;
+    .Mailicon{
+        width:28px;
+        height:22.61px;
     }
     
     .Linkedintext{
@@ -1235,7 +1625,14 @@ nav ul{
         flex-direction: row;
         margin:0px;
         margin-left:10px;
-        width:300px;
+        width:auto;
         white-space:nowrap;
+    
     }
+    .Lkdnicon{
+        width:30.25px;
+        height:25.76px;
+    }
+
 }
+
